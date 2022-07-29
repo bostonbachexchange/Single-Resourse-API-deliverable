@@ -1,7 +1,7 @@
 {
-  "name": "express-auth-mongoose-boilerplate",
+  "name": "repertoire-list",
   "version": "1.0.0",
-  "description": "Auth boilerplate for mongoose express using token auth",
+  "description": "A fun lil API server having to do with repertoire",
   "main": "server.js",
   "scripts": {
     "start": "nodemon server.js",
