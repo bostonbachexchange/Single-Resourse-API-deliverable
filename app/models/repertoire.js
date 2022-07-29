@@ -8,17 +8,21 @@ const repertoireSchema = new Schema(
             type: String,
             required: true, 
         },
+        catalog: {
+            type: String,
+            required: false, 
+        },
         composer: {
             type: String,
             required: true 
         },
         level: {
             type: String,
-            required: true 
+            required: false 
         },
         description: {
             type: String,
-            required: true 
+            required: false 
         },
         owner: {
             type: Schema.Types.ObjectId,
@@ -34,4 +38,4 @@ const repertoireSchema = new Schema(
 
 // Virtual schema values????
 
-module.exports = model('Repertoire, repertoireSchema')
+module.exports = model('Repertoire', repertoireSchema)
