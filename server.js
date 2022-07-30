@@ -67,8 +67,8 @@ app.use(requestLogger)
 
 // register route files
 app.use(repertoireRoutes)
-// app.use(exampleRoutes)
 app.use(userRoutes)
+// app.use(exampleRoutes)
 
 // register error handling middleware
 // note that this comes after the route middlewares, because it needs to be
