@@ -17,8 +17,12 @@ const repertoireSchema = new Schema(
             required: true 
         },
         level: {
-            type: String,
+            type: Number,
             required: false 
+        },
+        published: {
+            type: Date,
+            required: false
         },
         description: {
             type: String,
